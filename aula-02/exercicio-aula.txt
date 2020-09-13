@@ -1,0 +1,11 @@
+Fazenda colheita feliz
+
+- empregadores
+- vacas, ovelhas, galinhas (preço)
+- leite, manteiga, queijo  (validade, preço, etc)
+- queijos -> cheddar, parmesão
+- paga todos empregadores igual
+-cria vacas, ovelhas e galinhas 
+- cada um tem um valor 
+- produz leite, manteiga, queijo (cheddar e parmesão)
+- sempre ter valor e prazo de validade
