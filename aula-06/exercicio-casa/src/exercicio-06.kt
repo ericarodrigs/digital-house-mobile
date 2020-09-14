@@ -6,6 +6,6 @@ package nivel01
 */
 
 fun main() {
-    for (numero in 0..199 step 2) print("$numero ")
+    for (numero in 1..100) print("$numero ")
 }
 
