@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="foobar">foobar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sing_up"><u>Sing up</u></string>
+    <string name="meuTexto"><u>Com Underline</u></string>
+</resources>

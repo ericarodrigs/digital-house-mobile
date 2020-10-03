@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="@dimen/dimin_15dp"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foobar"
+        android:textSize="@dimen/dimin_30sp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="120dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:fontFamily="sans-serif-light"
+        android:backgroundTint="@color/colorWhite"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="sans-serif-light"
+        android:backgroundTint="@color/colorWhite"
+        android:hint="@string/password"
+        android:inputType="textPassword">
+    </EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackgroundButton"
+        android:textColor="@color/colorWhite"
+        android:text="@string/login"
+        android:textSize="@dimen/dimin_16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="10dp">
+    </Button>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sing_up"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+
+</LinearLayout>
