@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimin_20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperatura_em_c"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"/>
+
+
+    <EditText
+        android:id="@+id/edtTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_temperatura"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:layout_marginTop="@dimen/dimin_35dp"/>
+
+
+    <Button
+        android:id="@+id/btnConverter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/converter"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/dimin_35dp"
+        android:paddingRight="@dimen/dimin_35dp"
+        android:paddingLeft="@dimen/dimin_35dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"/>
+
+
+    <TextView
+        android:id="@+id/txtTempEmF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"/>
+
+</LinearLayout>
