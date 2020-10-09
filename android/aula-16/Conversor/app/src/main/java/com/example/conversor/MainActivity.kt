@@ -10,12 +10,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnConverter.setOnClickListener {
-            val temptoInt = edtTemperatura.text.toString().toInt()
+            if (edtTemperatura.text.toString().isNotEmpty()) {
 
-            val tempEmFahrenheit = (temptoInt * 9 / 5 ) + 32
+                val temptoInt = edtTemperatura.text.toString().toInt()
+                val tempEmFahrenheit = (temptoInt * 9 / 5) + 32
 
-            txtTempEmF.text = getString(R.string.em_fahrenheit, tempEmFahrenheit)
-
+                txtTempEmF.text = getString(R.string.em_fahrenheit, tempEmFahrenheit)
+            }
         }
 
     }

@@ -11,12 +11,16 @@ class MainActivity : AppCompatActivity() {
 
 
         btnCalcula.setOnClickListener {
-            val horasTrabalhadastoInt = edtHorasTrabalhadas.text.toString().toInt()
-            val ValorHoratoInt = edtValorDaHora.text.toString().toDouble()
+            if(edtHorasTrabalhadas.text.toString().isNotEmpty() &&
+                edtValorDaHora.text.toString().isNotEmpty()){
 
-            val calculo =  horasTrabalhadastoInt* ValorHoratoInt
+                val horasTrabalhadasToInt = edtHorasTrabalhadas.text.toString().toInt()
+                val ValorHoraToInt = edtValorDaHora.text.toString().toDouble()
 
-            txtSalario.text = getString(R.string.valorEmReal, calculo)
+                val calculo =  horasTrabalhadasToInt * ValorHoraToInt
+
+                txtSalario.text = getString(R.string.valorEmReal, calculo)
+            }
         }
     }
 }
